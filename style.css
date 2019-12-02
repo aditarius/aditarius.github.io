@@ -1,0 +1,208 @@
+.section_padding{
+    padding: 35px 0;
+}
+
+#whatwedo {
+    color:white;
+    padding: 5px;
+    background-color: rgb(76, 76, 218);
+    display: inline;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+#hello {
+    color: blue;
+    padding: 5px;
+    background-color: white;
+    display: inline;
+    font-size: 28px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.main_btn {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 10px;
+    text-transform: capitalize;
+    padding: 23px 40px;
+    letter-spacing: 0.6px;
+    font-weight: 600;
+    background: linear-gradient(-45deg,rgba(88, 195, 255,.8) 0,rgba(0, 77, 230,.8) 40%,rgba(0, 59, 177,.8) 100%);
+    line-height: 10px;
+    border: none;
+    border-radius: 30px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out 0s;
+}
+
+
+/* judul */
+.judul {
+    text-align: left;
+    color: white;
+    padding-top: 16%;
+}
+
+
+
+.dot {
+    height: 40px;
+    width: 40px;
+    margin-left: 8px;
+    padding-top: 5px;
+    text-align: center;
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: block;
+    background-image: url();
+}
+
+.img1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+/* about me */
+
+.about_image {
+    position: relative;
+    z-index: 9;
+}
+.about_image:before {
+    content: "";
+    width: 60%;
+    height: 98%;
+    top: 13px;
+    right: 203px;
+    position: absolute;
+    border: 10px solid #1461ff;
+    z-index: -1;
+}
+
+.single_about h4{
+    font-size: 22px;
+    font-weight: 700;
+    margin: 0 0 12px;
+    position: relative;
+}
+.single_about h4:after{
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 4px;
+    background-color: #222;
+    letter-spacing: 0px;
+    bottom: -14px;
+    margin: 0;
+    left: 0;
+}
+.single_about h3{
+    font-size: 30px;
+    color: #1461ff;
+    font-weight: 400;
+    margin: 40px 0 20px;
+}
+.about_details {
+    margin-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+.about_details li {
+    color: #333;
+    display: inline-block;
+    margin-top: 15px;
+    width: 49%;
+}
+.about_details span {
+    color: #222;
+    font-weight: 500;
+    text-transform: capitalize;
+    display: inline-block;
+    width: 40%;
+}
+.about_details ul li span>i {
+    border: 1px solid #111;
+    border-radius: 50%;
+    color: #111;
+    height: 30px;
+    line-height: 30px;
+    margin-right: 5px;
+    text-align: center;
+    width: 30px;
+}
+.ct_about{
+    margin: 10px 0;
+}
+.ct_about span i{
+    margin-right: 5px;
+}
+.single_about a i{
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid #ddd;
+}
+
+/* service */
+
+ .single-service{
+      border: 1px solid #f7f7f7;
+      padding: 40px 30px;
+      background: #fff;
+      margin-bottom: 30px;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+      position: relative;
+      transition: all 0.4s ease;
+      border-bottom: 3px solid transparent;
+  }
+  .single-service:hover{
+    background: #fff;
+    border-bottom: 3px solid #1461ff;
+    transform: translateY(-7px);
+}
+.single-service i {
+    font-size: 40px;
+    display: block;
+    color: #1461ff;
+}
+.single-service h4{
+    font-size: 22px;
+    margin-top: 30px;
+    text-transform: capitalize;
+    color: #222;
+    font-weight: 500;
+    transition: all 0.4s ease;
+}
+.single-service:hover h4{
+    color: #1461ff;
+}
+.single-service p{
+    margin-top: 15px;
+}
+
+
+/* i am available */
+
+.cta_section{
+    background: url(images/hireme.png);
+    position: relative;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.cta_section:before{
+    position: absolute;
+    content: "";
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(-45deg,rgba(88, 195, 255,.8) 0,rgba(0, 77, 230,.8) 40%,rgba(0, 59, 177,.8) 100%);
+}
+
+/* ------*/
+
